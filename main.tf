@@ -14,7 +14,7 @@ resource "cloudflare_record" "links" {
 
 resource "cloudflare_page_rule" "rule" {
   zone   = "${var.cloudfare_domain}"
-  target = "${var.cloudfare_domain}/${var.redirection_prefix}"
+  target = "${var.cloudfare_domain}/${var.redirection_prefix}*"
 
   actions = {
     forwarding_url {
