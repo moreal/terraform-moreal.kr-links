@@ -1,0 +1,9 @@
+cloudflare_email = "xxxx@email.email"
+
+cloudflare_token = "your token"
+
+cloudflare_target_domain = "links.xxx.domain"
+
+cloudflare_domain = "xxx.domain"
+
+redirection_prefix = "~"
