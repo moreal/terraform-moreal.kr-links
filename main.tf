@@ -18,7 +18,7 @@ resource "cloudflare_page_rule" "rule" {
 
   actions = {
     forwarding_url {
-      url         = "https://${var.cloudfare_target_domain}/$1"
+      url         = "https://links.${var.cloudfare_domain}/$1"
       status_code = "301"
     }
   }
